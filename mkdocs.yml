@@ -1,0 +1,30 @@
+site_name: FutbolNow
+site_url: https://RicardoLopez00107521.github.io/futbolnow-docs
+theme:
+  name: material
+  language: es
+  logo: img/logo.png
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - content.code.annotate
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.extra
+
+nav:
+  - Inicio: index.md
+  - Introducción:
+      - ¿Qué es FutbolNow?: introduccion/acerca-de.md
+  - Instalación:
+      - Requisitos: instalacion/requisitos.md
+  - Guía del usuario:
+      - Uso básico: guia-usuario/uso-basico.md
+  
